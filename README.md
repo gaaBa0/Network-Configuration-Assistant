@@ -47,10 +47,10 @@ Tudo isso através de uma interface gráfica simples e intuitiva, usando **PyQt5
 ## ⚙️ Instalação  
 ```bash
 # Clone o repositório
-git clone https://github.com/seuusuario/nca-morningstar.git
+git clone https://github.com/gaaBa0/Network-Configuration-Assistant
 
 # Acesse a pasta do projeto
-cd nca-morningstar
+cd Network-Configuration-Assistant
 
 # Crie um ambiente virtual
 python -m venv venv
