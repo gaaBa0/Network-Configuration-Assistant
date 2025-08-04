@@ -33,7 +33,7 @@ Tudo isso através de uma interface gráfica simples e intuitiva, usando **PyQt5
 ---
 
 ## 📸 Screenshot  
-![Screenshot](C:\Users\marketing\Documents\Programação\Python\NCA\print.png)  
+![Screenshot](print.png)  
 
 ---
 
