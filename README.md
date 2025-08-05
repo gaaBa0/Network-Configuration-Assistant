@@ -106,7 +106,8 @@ Explicação:
 ---
 
 ## 📌 Roadmap  
-- [ ] Adicionar suporte a múltiplos modelos IA  
+- [ ] Adicionar suporte a múltiplos modelos IA
+- [x] Adicionar histórico de conversas
 - [ ] Exportar scripts para arquivo  
 - [ ] Dark Mode  
 - [ ] Modo CLI sem interface gráfica  
