@@ -1,4 +1,3 @@
-
 import sys
 import google.generativeai as genai
 from PyQt5.QtWidgets import (
@@ -6,6 +5,9 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon
+import time
+
+tempo = time.strftime('%d.%m.%Y.%H_%M')
 
 #Chave API
 genai.configure(api_key="#######################################")
@@ -65,6 +67,9 @@ class CFGAssistant(QWidget):
             model = genai.GenerativeModel(model_name="gemini-2.0-flash") #Escolhe o modelo da i.a
             response = model.generate_content(prompt) #Gera uma resposta de acordo com o template
             reply = response.text.strip() #Transforma a resposta em texto puro
+            with open(f'history_{tempo}.txt', 'a') as file: #Modulo para criar um arquivo e usar ele como historico
+                file.write(f'Você: {user_input}\nNCA: {reply}\n') #Escreve cada input e resposta do usuario
+                file.close() #Salva o arquivo e fecha após escrever
             self.history.append(f"🤖 NCA:{reply}\n") #Coloca a resposta dentro do historico 
         except Exception as e:
             QMessageBox.critical(self, "Erro", str(e)) #Retorna erro
