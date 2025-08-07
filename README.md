@@ -1,6 +1,6 @@
 
 # ⚡ NCA by MorningStar  
-**Network Configuration Assistant powered by Google Gemini & PyQt5**  
+**Network Configuration Assistant powered by Google Gemini & CustomTkinter**  
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)  
 ![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-darkgreen?logo=python)  
