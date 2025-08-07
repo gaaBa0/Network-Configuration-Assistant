@@ -12,7 +12,7 @@
 
 ## 🚀 Sobre o Projeto  
 O **NCA by MorningStar** é um assistente inteligente para **automação de redes**, capaz de gerar **comandos CLI** e **scripts prontos** para configuração de **roteadores, switches, firewalls, Mikrotik e servidores (Linux/Windows)**.  
-Tudo isso através de uma interface gráfica simples e intuitiva, usando **PyQt5**.  
+Tudo isso através de uma interface gráfica simples e intuitiva, usando **CustomTkinter**.  
 
 ---
 
@@ -26,7 +26,7 @@ Tudo isso através de uma interface gráfica simples e intuitiva, usando **PyQt5
 ---
 
 ## ✨ Features  
-✅ Interface gráfica responsiva (**PyQt5**)  
+✅ Interface gráfica responsiva (**CustomTkinter**)  
 ✅ Integração com **Google Gemini**  
 ✅ Histórico de conversas integrado  
 ✅ Geração de **comandos CLI prontos**  
@@ -116,8 +116,9 @@ Explicação:
 - [ ] Adicionar suporte a múltiplos modelos IA
 - [x] Adicionar histórico de conversas
 - [ ] Exportar scripts para arquivo  
-- [ ] Dark Mode  
-- [ ] Modo CLI sem interface gráfica  
+- [x] Dark Mode  
+- [ ] Modo CLI sem interface gráfica
+- [x] Nova interface gráfica
 
 ---
 
