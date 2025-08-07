@@ -1,3 +1,6 @@
 
-PyQt5
+customtkinter
 google-generativeai
+CTKMessagebox
+darkdetect
+time

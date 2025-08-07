@@ -3,7 +3,9 @@
 **Network Configuration Assistant powered by Google Gemini & PyQt5**  
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)  
-![PyQt5](https://img.shields.io/badge/GUI-PyQt5-green?logo=qt)  
+![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-darkgreen?logo=python)  
+![CTKMessagebox](https://img.shields.io/badge/UX-CTKMessagebox-lightgrey?logo=python)  
+![darkdetect](https://img.shields.io/badge/Theme-darkdetect-yellow?logo=python)  
 ![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-orange?logo=google)  
 
 ---
@@ -39,8 +41,10 @@ Tudo isso através de uma interface gráfica simples e intuitiva, usando **PyQt5
 
 ## 🛠 Tecnologias Utilizadas  
 - **Python 3.9+**  
-- [PyQt5](https://pypi.org/project/PyQt5/)  
-- [Google Generative AI](https://ai.google.dev/)  
+- [customtkinter](https://pypi.org/project/customtkinter/)  
+- [CTkMessagebox](https://pypi.org/project/ctkmessagebox/)  
+- [darkdetect](https://pypi.org/project/darkdetect/)  
+- [google-generativeai](https://pypi.org/project/google-generativeai/)  
 
 ---
 
@@ -63,8 +67,11 @@ pip install -r requirements.txt
 
 **requirements.txt**
 ```
-PyQt5
+customtkinter
 google-generativeai
+CTKMessagebox
+darkdetect
+time
 ```
 
 ---
