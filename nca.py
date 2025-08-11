@@ -36,7 +36,7 @@ app = ctk.CTk(fg_color="#000000") # Cria a janela e escolhe um background
 app.title("NCA By MorningStar") # Título da janela
 app.geometry("700x500") # Escolhe o tamanho da janela
 app.resizable(width=False, height=False) # Não permite que mude o tamanho da janela
-app.iconbitmap(r"C:\Users\Gabriel Estevão\Documents\Programação\Python\NCA\app_icon.ico") # seleciona um icone para o app
+app.iconbitmap(r"app_icon.ico") # seleciona um icone para o app
 
 frame = ctk.CTkFrame(app, fg_color="#000000")
 frame.pack() # Cria o frame do label
@@ -78,7 +78,7 @@ def addTexto(event=None):
         text.insert("end",f"🤖 NCA: {reply}\n") # Adiciona a resposta ao textbox
         text.configure(state="disabled") # Desabilita a edição
     except Exception as e:
-        CTkMessagebox(app, fg_color="#000000", bg_color="#000000", text_color="#F2F2F2", title="Erro ao gerar resposta.", message="Ocorreu um erro ao gerar sua resposta, por favor contate o suporte do app.", button_color="#FFD700", button_hover_color="#FFD966", button_text_color="#000000", icon=r"C:\Users\Gabriel Estevão\Documents\Programação\Python\NCA\icone_erro_dourado.ico") # Uma janela de erro caso não consiga criar a resposta ao input
+        CTkMessagebox(app, fg_color="#000000", bg_color="#000000", text_color="#F2F2F2", title="Erro ao gerar resposta.", message="Ocorreu um erro ao gerar sua resposta, por favor contate o suporte do app.", button_color="#FFD700", button_hover_color="#FFD966", button_text_color="#000000", icon=r"icone_erro_dourado.ico") # Uma janela de erro caso não consiga criar a resposta ao input
 
 
 inp = ctk.CTkEntry(frame3, width=510, fg_color="#333333", placeholder_text="Digite a configuração desejada:", border_color=None, font=("Josefin sans", 12), text_color="#F2F2F2") # Seção de input
